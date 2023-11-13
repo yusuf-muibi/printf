@@ -78,7 +78,7 @@ int print_unsigned(va_list ap, pchar_t *pchar);
 int print_address(va_list ap, pchar_t *pchar);
 
 /* specifier.c module */
-int (*get_specifier(char *s))(va_list ap,pchar_t *pchar);
+int (*get_specifier(char *s))(va_list ap, pchar_t *pchar);
 int get_print_func(char *s, va_list ap, pchar_t *pchar);
 int get_flag(char *s, pchar_t *pchar);
 int get_modifier(char *s, pchar_t *pchar);
