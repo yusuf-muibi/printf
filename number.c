@@ -68,7 +68,7 @@ int print_unsigned(va_list ap, pchar_t *pchar)
  *
  * Return: bytes printed
  */
-int print_address(va_list ap, ppchar_t *pchar)
+int print_address(va_list ap, pchar_t *pchar)
 {
 	unsigned long int n = va_arg(ap, unsigned long int);
 	char *str;
