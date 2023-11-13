@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "april 15 2022" "0.1" "ALX  - _printf"
+.TH _PRINTF 3 "november 13 2023" "0.1" "ALX  - _printf"
 
 .SH NAME
 .B _printf\fR \- formatted output conversion
@@ -25,8 +25,7 @@ If an output error is encountered, -1 is returned.
 .B Format of the format string
 .in +2n
 The format string is a constant character string composed of zero or more
-directives: ordinary characters (not \fB%\fR) which are copied unchanged to
-the output stream; and conversion specifications, each of which results in
+directives: ordinary characters (not \fB%\fR) which are copied unchanged to the output stream; and conversion specifications, each of which results in
 fetching zero or more subsequent arguments. Conversion specification is
 introduced by the character \fB%\fR and ends with a \fIconversion specifier\fR.
 
